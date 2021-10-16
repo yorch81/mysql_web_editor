@@ -91,7 +91,7 @@ if (isset($_SESSION['MYSQL_ERROR'])) {
       </center>
 
       <form class="form-signin" role="form" action="login.php" method="POST">
-        <input type="text" class="form-control" placeholder="Usuario" name="txtUser" required autofocus>
+        <input type="text" class="form-control" placeholder="Username" name="txtUser" required autofocus>
         <input type="password" class="form-control" placeholder="Password" name="txtPassword" required>
         <button class="btn btn-lg btn-block" type="submit">Login</button>
       </form>
